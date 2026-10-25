@@ -1,8 +1,5 @@
 # ESP32_Servo
 
-[![Compile Examples](https://github.com/YOUR_GITHUB_USER/ESP32_Servo/actions/workflows/compile-examples.yml/badge.svg)](https://github.com/YOUR_GITHUB_USER/ESP32_Servo/actions/workflows/compile-examples.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
 An Arduino library for controlling hobby servo motors with ESP32 boards. It
 gives you separate classes for **standard positional** servos and
 **continuous rotation** servos. Both support speed control, smooth motion and
