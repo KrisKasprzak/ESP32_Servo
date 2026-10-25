@@ -1,0 +1,83 @@
+#######################################
+# Syntax Coloring Map for ESP32_Servo
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ServoBase	KEYWORD1
+PositionalServo	KEYWORD1
+ContinuousServo	KEYWORD1
+ServoEasing	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+attach	KEYWORD2
+detach	KEYWORD2
+attached	KEYWORD2
+pin	KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
+writeMicroseconds	KEYWORD2
+readMicroseconds	KEYWORD2
+setPulseRange	KEYWORD2
+minPulse	KEYWORD2
+maxPulse	KEYWORD2
+frequency	KEYWORD2
+update	KEYWORD2
+setSpeed	KEYWORD2
+getSpeed	KEYWORD2
+setEasing	KEYWORD2
+getEasing	KEYWORD2
+moveTo	KEYWORD2
+moveBy	KEYWORD2
+moveToBlocking	KEYWORD2
+isMoving	KEYWORD2
+stop	KEYWORD2
+getTarget	KEYWORD2
+setLimits	KEYWORD2
+getMinLimit	KEYWORD2
+getMaxLimit	KEYWORD2
+getMaxAngle	KEYWORD2
+setTrim	KEYWORD2
+getTrim	KEYWORD2
+setReversed	KEYWORD2
+isReversed	KEYWORD2
+setSpeedImmediate	KEYWORD2
+getTargetSpeed	KEYWORD2
+forward	KEYWORD2
+backward	KEYWORD2
+softStop	KEYWORD2
+runFor	KEYWORD2
+isRamping	KEYWORD2
+isRunning	KEYWORD2
+setAcceleration	KEYWORD2
+getAcceleration	KEYWORD2
+setNeutral	KEYWORD2
+getNeutral	KEYWORD2
+setDeadband	KEYWORD2
+getDeadband	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ESP32_SERVO_LIBRARY_VERSION	LITERAL1
+SERVOBASE_LIBRARY_VERSION	LITERAL1
+POSITIONALSERVO_LIBRARY_VERSION	LITERAL1
+CONTINUOUSSERVO_LIBRARY_VERSION	LITERAL1
+ESP32_SERVO_AUTO_CHANNEL	LITERAL1
+ESP32_SERVO_DEFAULT_FREQUENCY_HZ	LITERAL1
+ESP32_SERVO_DEFAULT_MIN_US	LITERAL1
+ESP32_SERVO_DEFAULT_MAX_US	LITERAL1
+ESP32_SERVO_RESOLUTION_BITS	LITERAL1
+ESP32_SERVO_CONTINUOUS_MIN_US	LITERAL1
+ESP32_SERVO_CONTINUOUS_MAX_US	LITERAL1
+ESP32_SERVO_CONTINUOUS_NEUTRAL_US	LITERAL1
+Linear	LITERAL1
+EaseIn	LITERAL1
+EaseOut	LITERAL1
+EaseInOut	LITERAL1
